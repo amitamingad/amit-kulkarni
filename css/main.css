@@ -562,7 +562,7 @@ li a:hover{
 }
 
 .contact-background{
-  background-image: url(images/contact.jpg);
+  background-image: url(/images/contact.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
