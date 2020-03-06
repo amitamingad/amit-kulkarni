@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Amit A Kulkarni | Java/JavaScript Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Amit A Kulkarni | Java/JavaScript Developer" property="og:title" prefix="og: http://ogp.me/ns#">
+  <link rel="icon" href="../images/amit-tab-image.jpg" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">    
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/hamenu.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script> -->
+</head>
+
+<body>
+  <!-- Hamburger Menu Starts here-->
+  <button type="button" id="hamId" class="navbar-button">
+
+    <div id="lineId" class="menu-icon">
+      <span class="line-icon line1"></span>
+      <span class="line-icon line2"></span>
+      <span class="line-icon line3"></span>
+    </div>
+
+    <div class="animated ham-menu" id="menu">
+
+      <ul class="list-group">
+        <li data-nav="about">
+          <a href="#myCarousel"> About </a>
+        </li>
+        <li data-nav="experience">
+          <a href="#experience">Experience</a>
+        </li>
+        <li data-nav="skills">
+          <a href="#skillset">Skills</a>
+        </li>
+        <li data-nav="education">
+          <a href="#education">Education</a>
+        </li>
+        <li data-nav="contact">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </button>
+  <!-- Hamburger Menu ends here-->
+
+  <!-- Carousel Starts here-->
+  <!-- <div class="container-fluid no-padd-lr"> -->
+  <div id="myCarousel" class="container-fluid no-padd-lr carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" id="cd">
+      <div class="active item" data-interval="5000">
+        <img class="img-fluid" src="../images/amit - copy.jpg" alt="desc">
+        <div class="container">
+          <div class="row">              
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="carousel-custom-caption">    
+          <h1>Amit A Kulkarni</h1>
+          <p>Software Developer at Oracle India Pvt Ltd
+          </p>
+          <p>4.5 years of experience
+          </p>
+          <p>Bachelor of Engineering(CSE)
+          </p>
+          <p>+918105040837
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+       <div class="item" data-interval="20000">
+        <img class="img-fluid" src="../images/contact - Copy.jpg" alt="profile">
+        <div class="carousel-custom-caption carousel-sec" style="text-align: left;">
+          <p>
+            Hello, This is Amit. I am having an experience of 4.5 years in IT and currently been associated with Oracle.
+            <br> I have previously worked in Java and J2EE for 3+ years and lately from past 1.3 year, been working on JavaScript
+            technologies such as Node JS, Angular and trying to understand the niche of javaScript.
+            <br> In Oracle, I help to build a Solution which would showcase the capabilities of the products of Oracle such as
+            Oracle Internet of things, bit of Mobile cloud service and Oracle JET. Previously, I was associated with NTT
+            Data Sevices Pvt.Ltd as a Software engineer where I was involved in development and enhancement of a framework
+            which was used by State farm(Client) Insurance applications.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="item" data-interval="10000">
+        <img class="img-fluid" src="../images/contact - Copy.jpg" alt="social-links">
+        <div class="carousel-custom-caption media-car-third">
+          <p> Want to know more about me? Check out below links/Get in
+            <span class="animated rubberBand">
+              <a class="" href="#contact"> touch </a>
+            </span>
+          </p>
+          <ul class="social-links">
+            <li>
+              <a href="https://www.linkedin.com/in/amit-a-kulkarni/" target="_blank" class="linkedin">
+                <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/amit.kulkarni.3990" target="_blank" class="facebook">
+                <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:amikashok@gmail.com" target="_blank" class="gmail">
+                <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    <ol class="carousel-indicators z-index-0">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Left and right controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- </div> -->
+  <!-- carousel Ends here-->
+
+  <!-- Timeline Starts here-->
+  <div class="container exp-bg" id="experience">
+    <div class="col-sm-12">
+      <h2>Experience</h2>
+    </div>
+    <!-- <div class="container"> -->
+    <ul class="timeline">      
+      <li class="timeline-inverted">
+        <div class="timeline-badge z-index-0"></div>
+        <div class="timeline-panel">
+          <div class="scrollbar" id="style-2">
+            <div>
+              <i class="compn-logo oracle"></i>
+              <p class="timeline-title">Solutions Engineer</p>
+            </div>
+            <div class="timeline-body">
+              <h4>Smart Connected Factory V2</h4>
+              <p>Smart Connected Factory solution helps manufacturing companies to better predict and resolve maintenance and
+                operational requirements, correlate quality issues to machine and environmental factors, reduce downtime,
+                improve quality and track assets by leveraging a modern Oracle IoT cloud platform Production monitoring and
+                Asset Monitoring applications.</p>
+              <h4>Roles</h4>
+              <p>
+                Responsible for building a simulator that mimics the real world devices. Register, activate and send the device messages
+                to IoT using the client library provided. Developed a REST API handlers to push the data and retireve the
+                data from the Oracle DBCS.
+              </p>
+              <h4 class="accomplishment">
+                Awarded “Bravo Performer” in recognition to the contribution towards the “Smart Connected Factory” Project at Oracle India
+                Pvt Ltd.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge z-index-0"></div>
+        <div class="timeline-panel">
+          <div class="scrollbar" id="style-2">
+            <div>
+              <i class="compn-logo oracle"></i>
+              <p class="timeline-title">Solutions Engineer</p>
+            </div>
+            <div class="timeline-body">
+              <h4>Smart Connected Factory V1</h4>
+              <p>This project was initial phase of Smart Connected Factory V2, where it had the Oracle IoT Production monitoring
+                application only. An Integration between the SCM cloud is made to track the real time manufacturing of the
+                items in each machines.
+              </p>
+              <h4>Roles</h4>
+              <p>
+                Responsible for building a simulator that mimics the real world devices. Register, activate and send the device messages
+                to IoT using the client library provided. Developed simple algorithm to count the number of items produced
+                in each machine for a Factory.
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-badge z-index-0"></div>
+        <div class="timeline-panel">
+          <div class="scrollbar" id="style-2">
+            <div>
+              <i class="compn-logo oracle"></i>
+              <p class="timeline-title">Solutions Engineer</p>
+            </div>
+            <div class="timeline-body">
+              <h4>Smart City</h4>
+              <p>This project demonstrates the real time monitoring of the devices such as Garbage bin and Garbage truck. An
+                automated alert is triggered whenever the discrepancies are observed in the devices. The technician and the
+                service manager logs on to the Application where the alerts are generated and take the necessary action to
+                resolve the issues.
+              </p>
+              <h4>Roles</h4>
+              <p>
+                Implemented API’s to fetch the data through Oracle MCS. Creating new API’s in Apex tool and map them in the Oracle MCS. Created
+                the UI using the Oracle JET and provided the data binding using the Knockout JS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge z-index-0"></div>
+        <div class="timeline-panel">
+          <div class="scrollbar" id="style-2">
+            <div>
+              <i class="compn-logo ntt"></i>
+              <p class="timeline-title">Software Engineer</p>
+            </div>
+            <div class="timeline-body">
+              <h4>DDUI Controller Framework</h4>
+              <p>DDUI Controller Framework is Statefarm’s in-house Framework which is used by all Insurance based applications
+                like Fire, Life etc. It also included few of the Messaging Queue applications built in to process the metadata
+                being uploaded by the users.
+              </p>
+              <h4>Roles</h4>
+              <p>
+                Involved in development life cycle beginning from requirement discussions, Design discussions, implementation and unit testing.
+                Timely delivering the software change requests from client and providing end to end resolution.
+
+              </p>
+              <h4 class="accomplishment">Honoured with “Spot Award” in recognition to the contributions towards the “DDUI Controller Framework” project
+                at NTT Data GDS Pvt Ltd.</h4>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  <!-- </div> -->
+  </div>
+  <!-- Timeline ends here-->
+
+  <!-- Skill section starts here-->
+  <div class="container-fluid skills" id="skillset">
+    <div class="container">
+      <div class="col-sm-12 no-padd-lr">
+        <h2>Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Node JS" src="../images/nodejs-logo.png" style="border-radius: 40px;">
+            </div>
+            <h3> Node JS </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar pr-node progress-bar-success progress-bar-striped bg-node active" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Angular JS" src="../images/angular.png" style="border-radius: 40px;">
+            </div>
+            <h3> Angular JS </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-angular active" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="JavaScript" src="../images/js-logo.jpg" style="border-radius: 40px;">
+            </div>
+            <h3> JavaScript </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-javascript active" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="REST API" src="../images/rest-api-logo.png" style="border-radius: 40px;">
+            </div>
+            <h3> REST API </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-rest active" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Java" src="../images/java.png" style="border-radius: 40px;">
+            </div>
+            <h3> Java </h3>
+            <h4> Experience: 3Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-java active" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Spring" src="../images/spring.png" style="border-radius: 40px;">
+            </div>
+            <h3> Spring </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-spring active" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Hibernate" src="../images/hibernate.png" style="border-radius: 40px;">
+            </div>
+            <h3> Hibernate </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-hibernate active" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mrg-btm-20">
+          <div class="skills-desc hoverable">
+            <div style="padding-top: 30px;">
+              <img alt="Node JS" src="../images/nodejs-logo.png" style="border-radius: 40px;">
+            </div>
+            <h3> HTML & CSS </h3>
+            <h4> Experience: 2Y </h4>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-success progress-bar-striped bg-html active" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills section ends here-->
+
+    <!-- Education section starts here-->
+  </div>
+  <div class="edu-bg container-fluid" id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Education</h2>
+        </div>
+      </div>
+      <div class="col-sm-12 no-padding-left">
+        <h3>
+          AMC Engineering College, Bangalore
+        </h3>
+        <p>
+          Bachelor of Engineering(Computer Science), VTU
+        </p>
+        <p>
+          2009 - 2013
+        </p>
+      </div>
+      <div class="col-sm-12 no-padding-left">
+        <h3>
+          Vijaya Composite PU College, Bangalore
+        </h3>
+        <p>
+          Pre-University, PU Board, Karnataka
+        </p>
+        <p>
+          2007 - 2009
+        </p>
+      </div>
+      <div class="col-sm-12 no-padding-left">
+        <h3>
+          Vijaya High School, Bangalore
+        </h3>
+        <p>
+          Secondary school, KSEEB, Karnataka
+        </p>
+        <p>
+          2004 - 2007
+        </p>
+      </div>
+    </div>
+    <!-- Education section ends here-->
+
+    <!-- Contact form section starts here-->
+  </div>
+  <div class="container-fluid contact-background" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Get in Touch</h2>
+        </div>
+      </div>
+      <form action="https://formspree.io/amitamingad@gmail.com" method="POST">
+      <div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
+        <input type="text" name="name" id="name" placeholder="Name*" class="form-control">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
+        <input type="text" name="email" id="email" placeholder="Email*" class="form-control">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 no-padding-left">
+        <textarea type="text" name="message" id="message" placeholder="Message" rows="3" class="form-control"></textarea>
+      </div>
+      <div class="col-md-12 mrg-btm-40">
+        <button class="btn btn-lg btn-primary col-sm-offset-5" id="submitBtn " type="submit ">
+          Send Message
+        </button>
+      </div>
+      </form>
+    </div>
+  </div>
+  <!-- Contact form section ends here-->
+
+  <!-- Footer section starts here-->
+  <div class="container-fluid no-padd-lr">
+    <a data-toggle="tooltip" data-placement="top" title="" href="../resume/Amit_Kulkarni_Java_Dev_4Y.pdf" target="_blank " class="pdf-actions"
+      id="downloadResume" data-original-title="Download resume">
+      <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+    </a>
+    <footer class="col-xs-12 footer-bg text-center">
+      <div class="col-md-12 mrg-btm-40 social-links text-center">
+        <a href="https://www.linkedin.com/in/amit-a-kulkarni/" target="_blank ">
+          <i class="fa fa-4x fa-linkedin-square" aria-hidden="true "></i>
+        </a>
+        <a href="https://www.facebook.com/amit.kulkarni.3990" target="_blank ">
+          <i class="fa fa-4x fa-facebook-square" aria-hidden="true "></i>
+        </a>
+        <span class="discmlr">Disclaimer: All logos used, belongs to their respective owners.</span>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer section ends here-->
+</body>
+
+</html>
